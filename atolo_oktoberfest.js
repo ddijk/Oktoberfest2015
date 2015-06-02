@@ -1,5 +1,5 @@
 
-Wordpress, vulling Theme Options->Section About:
+<!-- Wordpress, vulling Theme Options->Section About: -->
 <br>
 <p class="of-1">
 Oktoberfest de Nachtzoen is een initiatief van de <a href='https://www.lions.nl/utrechtnovum' target="_blank">Mixed Lions Club Utrecht Novum</a>
@@ -13,7 +13,7 @@ Kortom alle ingrediënten voor een heel leuk feest met je vrienden, buren en bek
 </p>
 <p class="of-1">
 <b>
-Zaterdag 11 oktober 2014 
+Zaterdag 26 september 2015 
 Cultureel centrum Azotod, Meerndijk 126, 3454 HV De Meern 19.30 – 01.00 uur 
 </b>
 </p>
@@ -24,8 +24,10 @@ De minimum leeftijd voor het Oktoberfest is 18 jaar. Bij de ingang kan door de b
 <p class="of-1">
 Klik <a href="#huisregels" onclick="$('#of-huisregels').toggle();">hier</a> voor de huisregels
 </p>
-<p align="center"><img src="http://oktoberfestdenachtzoen.nl/wp-content/uploads/2014/09/logo-Azotod.jpg"></p>
+<p align="center"><!--<img src="http://oktoberfestdenachtzoen.nl/wp-content/uploads/2014/09/logo-Azotod.jpg">--></p>
 <script type="text/javascript">$(function() { 
+	$('.col-sm-6').hide();
+$('.caption-block').hide();
 $('#about').find('h3.section-quote').remove();
 $('#services').find('h3.section-quote').remove();
 
@@ -42,12 +44,11 @@ $("<div class='span12'><h2 class='section-title'>Kaarten</h2><div class='row'><p
 $('#portfolio').css('background-image', 'none').css('background-color', '#fff').removeClass('shadow');
 $('#portfolio').find('.row').children().remove();
 var of_muziek=$('#portfolio').find('.row');
-$("<div class='span12'><h2 class='section-title'>Muziek</h2><div class='row'><p class='of-1'><a href='http://www.woenderbaar.nl/' target='_blank'>Band Woenderbaar</a>, luister en geniet alvast!<br><a target='_blank' href='https://www.youtube.com/watch?v=N-UWxGIt4R0'>Youtube</a></p><p class='of-1'><a href='http://harmonieorkestvleuten.nl/bloaskapel-vleuten' target='_blank'>Bloaskapel Vleuten</a></p><p class='of-1'>DJ Mikey</p><p align='center'><img src='http://oktoberfestdenachtzoen.nl/wp-content/uploads/2014/09/Woenderbaar-2.jpg'></p></div></div>").appendTo(of_muziek);
+$("<div class='span12'><h2 class='section-title'>Muziek</h2><div class='row'><p class='of-1'><a href='http://www.woenderbaar.nl/' target='_blank'>Band Woenderbaar</a>, luister en geniet alvast!<br><a target='_blank' href='https://www.youtube.com/watch?v=N-UWxGIt4R0'>Youtube</a></p><p class='of-1'><a href='http://harmonieorkestvleuten.nl/bloaskapel-vleuten' target='_blank'>Bloaskapel Vleuten</a></p><p class='of-1'>DJ Mikey</p><p align='center'><!--<img src='http://oktoberfestdenachtzoen.nl/wp-content/uploads/2014/09/Woenderbaar-2.jpg'>--></p></div></div>").appendTo(of_muziek);
 
 $('#pricing').css('background-image', 'none').css('background-color', '#fff').removeClass('shadow');
 $('#pricing').find('.row').children().remove();
-var of_pricing=$('#pricing').find('.row');
-$("<div class='span12'><h2 class='section-title'>Ratjetoe</h2><div class='row'><p class='of-1' align='center'><img src='http://oktoberfestdenachtzoen.nl/wp-content/uploads/2014/09/ratjetoe.jpg'></p></div></div>").appendTo(of_pricing);
+
 
 $('#social-media').css('background-image', 'none').css('background-color', '#fff').removeClass('shadow');
        $('#social-media').find('.row').children().remove();
@@ -55,7 +56,10 @@ $('#social-media').css('background-image', 'none').css('background-color', '#fff
        $("<div class='span12'><h2 class='section-title'>Sponsors</h2><div class='row'><p class='of-1' style='text-align: center'><i>Hartelijk dank aan alle sponsors</i></p><ul class='of-1' style='text-align: center'><li>Brouwerij Maximus</li><li>AH Vleuten</li><li>Kwalitaria De Meern</li><li>Ruiter Groendecoratie</li><li>Slijterij Van Schaik</li><li>Banketbakkerij Van Straaten</li><li>Bakkerij Verkerk</li><li>Slagerij Oostveen</li><li>Zeeman</li><li>Kruidvat</li><li>Opticien Kreft</li><li>Europarts</li><li>Zomer IJssalon</li><li>Slagerij Kees Vernooij</li><li>Zoen</li><li>Boulevard</li><li>Leeuwis Tweewielers</li><li>Hansen Verf &amp; Wand</li><li>DA Drogist Vleuten</li><li>Italiaans restaurant D&apos;Amici</li><li>Bos Groenteman</li><li>Jones &amp; Jones</li></ul></div></div>").appendTo(of_sponsors);
      
 
-});</script>
+});
+
+
+</script>
 <div style="margin-bottom: 100px">
 <a name="huisregels" />
 </div>
@@ -78,6 +82,3 @@ foto’s te gebruiken voor publicatiedoeleinden.</li>
 <li>Flyeren is verboden.</li>
 </ol>
 </div>
-
-
-
