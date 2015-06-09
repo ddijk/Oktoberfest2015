@@ -1,4 +1,3 @@
-
 <!-- Wordpress, vulling Theme Options->Section About: -->
 <br>
 <p class="of-1">
@@ -14,7 +13,7 @@ Kortom alle ingrediënten voor een heel leuk feest met je vrienden, buren en bek
 <p class="of-1">
 <b>
 Zaterdag 26 september 2015 
-Cultureel centrum Azotod, Meerndijk 126, 3454 HV De Meern 19.30 – 01.00 uur 
+Cultureel centrum Azotod, Meerndijk 126, 3454 HV De Meern 20.30 – 01.00 uur 
 </b>
 </p>
 <p class="of-1">
@@ -29,17 +28,26 @@ Klik <a href="#huisregels" onclick="$('#of-huisregels').toggle();">hier</a> voor
 	$('.col-sm-6').hide();
 $('.caption-block').hide();
 $('#about').find('h3.section-quote').remove();
+
+// Goede doel:
 $('#services').find('h3.section-quote').remove();
 
+$('#services').css('background-image', 'none').css('background-color', '#fff').removeClass('shadow');
+$('#services').find('.row').children().remove();
+var of_services=$('#services').find('.row');
+$("<div class='span12'><h2 class='section-title'>Goede doel</h2><div class='row'><p class='of-1'>Als je kind ziek is, wil je als ouder zo dicht mogelijk in de buurt zijn.</p><p class='of-1'>Je wilt binnen een paar minuten aan de rand van het bed staan als je kind je nodig heeft. </p><p class='of-1'Daarom zijn de Ronald McDonald Huizen onmisbaar.</p></div></div>").appendTo(of_services);
+
+// Locatie:
 $('#clients').css('background-image', 'none').css('background-color', '#fff').removeClass('shadow');
 $('#clients').find('.row').children().remove();
 var of_client=$('#clients').find('.row');
-$("<div class='span12'><h2 class='section-title'>Bereikbaarheid</h2><div class='row'><p class='of-1'>De Azotod ligt naast de A12 en is uitstekend bereikbaar per fiets, openbaar vervoer en auto. Parkeren is gratis.</p><p class='of-1'><b>Routebeschrijving voor auto\'s</b></p><p class='of-1'>Vanuit Amsterdam, Den Bosch en Arnhem: Ga de A12 op richting Den Haag en neem afslag 15 De Meern. Onderaan de afslag rechtsaf en bij de volgende stoplichten linksaf. Je ziet Azotod nu aan je rechterhand liggen.</p><p class='of-1'>Vanuit Den Haag: Ga de A12 op richting Utrecht en neem afslag 15 De Meern. Onderaan de afslag linksaf en bij de volgende stoplichten rechtdoor. Je ziet Azotod nu aan je rechterhand liggen.</p><p class='of-1'><b>Openbaar Vervoer</b></p><p class='of-1'>Vanuit Utrecht bus 107 /407 (Connexxion), deze stopt voor de deur (halte De Meern Zuid).<br>Bushalte De Meern Zuid (dus voor de deur) lijn 107 gaat m 00.07 naar Utrecht<br>Bushalte Meernbrug (15 minuten lopen) lijn 28 gaat om 00.04,00.34, 00.50 en lijn 102 gaat nog om 00.00, 01.00, 02.00 richting Utrecht<br>Bus 407 stopt voor onze deur, andere nachtbussen stoppen in de omgeving van Azotod (407, 402) <br></p><p class='of-1'>Ook andere bussen richting De Meern zijn mogelijk, maar dan moet je vanaf de kruising Rijksstraatweg/Meerndijk ongeveer 8 minuten lopen.</p><p class='of-1'><b>Nightliners</b><br>Op zaterdag rijden er speciale nachtbussen van en naar de omgeving van Azotod in de richting van  Utrecht, Montfoort, Vleuten, Woerden en Maarssen.</p><p class='of-1'><b>Hotel</b><br>De dichtstbijzijnde gelegenheid om te overnachten is Hotel Holiday Inn op kantorenpark Papendorp, Utrecht.</p></div></div>").appendTo(of_client);
+$("<div class='span12'><h2 class='section-title'>Locatie</h2><div class='row'><p class='of-1'>De Azotod ligt naast de A12 en is uitstekend bereikbaar per fiets, openbaar vervoer en auto. Parkeren is gratis.</p><p class='of-1'><b>Routebeschrijving voor auto\'s</b></p><p class='of-1'>Vanuit Amsterdam, Den Bosch en Arnhem: Ga de A12 op richting Den Haag en neem afslag 15 De Meern. Onderaan de afslag rechtsaf en bij de volgende stoplichten linksaf. Je ziet Azotod nu aan je rechterhand liggen.</p><p class='of-1'>Vanuit Den Haag: Ga de A12 op richting Utrecht en neem afslag 15 De Meern. Onderaan de afslag linksaf en bij de volgende stoplichten rechtdoor. Je ziet Azotod nu aan je rechterhand liggen.</p><p class='of-1'><b>Openbaar Vervoer</b></p><p class='of-1'>Vanuit Utrecht bus 107 /407 (Connexxion), deze stopt voor de deur (halte De Meern Zuid).<br>Bushalte De Meern Zuid (dus voor de deur) lijn 107 gaat m 00.07 naar Utrecht<br>Bushalte Meernbrug (15 minuten lopen) lijn 28 gaat om 00.04,00.34, 00.50 en lijn 102 gaat nog om 00.00, 01.00, 02.00 richting Utrecht<br>Bus 407 stopt voor onze deur, andere nachtbussen stoppen in de omgeving van Azotod (407, 402) <br></p><p class='of-1'>Ook andere bussen richting De Meern zijn mogelijk, maar dan moet je vanaf de kruising Rijksstraatweg/Meerndijk ongeveer 8 minuten lopen.</p><p class='of-1'><b>Nightliners</b><br>Op zaterdag rijden er speciale nachtbussen van en naar de omgeving van Azotod in de richting van  Utrecht, Montfoort, Vleuten, Woerden en Maarssen.</p><p class='of-1'><b>Hotel</b><br>De dichtstbijzijnde gelegenheid om te overnachten is Hotel Holiday Inn op kantorenpark Papendorp, Utrecht.</p></div></div>").appendTo(of_client);
 
+// Kaarten:
 $('#blog').css('background-image', 'none').css('background-color', '#fff').removeClass('shadow');
 $('#blog').find('.row').children().remove();
 var of_blog=$('#blog').find('.row');
-$("<div class='span12'><h2 class='section-title'>Kaarten</h2><div class='row'><p class='of-1'>Kaarten in de voorverkoop &euro;15<br>Kaarten aan de deur &euro;20</p><p class='of-1'>Fysieke verkooppunten:<br>Kantoorboekhandel Kees Visscher vestiging Vleuterweide en vestiging De Meern, restaurant De Brouwerij Vleuten, Filmclub Parkwijk, Primera Veldhuizen en Jones en Jones Vleuterweide en Nieuwegein.</p><p class='of-1'>Online verkooppunten:<br><a href='http://www.azotod.nl/tickets' target='_blank'>Azotod</a></p><p class='of-1'><b>Betalen</b><br>Je kunt munten kopen bij de muntenkassa\'s en er kan met pin of contant worden afgerekend</p></div></div>").appendTo(of_blog);
+$("<div class='span12'><h2 class='section-title'>Kaarten</h2><div class='row'><p class='of-1'>Kaarten in de voorverkoop &euro;15<br>Kaarten aan de deur &euro;20</p><p class='of-1'>Fysieke verkooppunten:<br>Kantoorboekhandel Kees Visscher vestiging Vleuterweide en vestiging De Meern, restaurant De Brouwerij Vleuten en Primera Veldhuizen</p><p class='of-1'>Online verkooppunten:<br><a href='http://www.azotod.nl/tickets' target='_blank'>Azotod</a></p><p class='of-1'><b>Betalen</b><br>Je kunt munten kopen bij de muntenkassa\'s en er kan met pin of contant worden afgerekend</p></div></div>").appendTo(of_blog);
 
 $('#portfolio').css('background-image', 'none').css('background-color', '#fff').removeClass('shadow');
 $('#portfolio').find('.row').children().remove();
