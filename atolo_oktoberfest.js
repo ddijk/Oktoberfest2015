@@ -1,7 +1,7 @@
 	<!-- Wordpress, vulling Theme Options->Section About: -->
 	<br>
 	<p class="of-1">
-	Oktoberfest de Nachtzoen is een initiatief van de <a href='https://www.lions.nl/utrechtnovum' target="_blank">Mixed Lions Club Utrecht Novum</a>Alle opbrengsten van dit supertolles fest gaan naar het goede doel ‘De Nachtzoen’ van het Ronald McDonald Huis te Utrecht. Kijk voor meer info op het tabje ‘Het Goede Doel’.
+	Oktoberfest de Nachtzoen is een initiatief van de <a href='https://www.lions.nl/utrechtnovum' target="_blank">Mixed Lions Club Utrecht Novum</a>. Alle opbrengsten van dit supertolles fest gaan naar het goede doel ‘De Nachtzoen’ van het Ronald McDonald Huis te Utrecht. Kijk voor meer info op het tabje ‘Goede doel’.
 	</p>
 	<br>
 	<p class="of-1">
@@ -47,7 +47,7 @@
 	$('#blog').css('background-image', 'none').css('background-color', '#fff').removeClass('shadow');
 	$('#blog').find('.row').children().remove();
 	var of_blog=$('#blog').find('.row');
-	$("<div class='span12'><h2 class='section-title'>Kaarten</h2><div class='row'><p class='of-1'><table><tr><td height='30'><b>Kaarten:</b></td><td height='30'>in de voorverkoop &euro;15, aan de deur &euro;20</td></tr><tr><td height='30'><b>Fysieke verkooppunten: </b></td><td height='30'>Kantoorboekhandel Kees Visscher, restaurant De Brouwerij Vleuten, Jones&amp;Jones en Primera Veldhuizen</td></tr><tr><td height='30'><b>Online verkooppunten: </b></td><td height='30'><a href='http://www.azotod.nl/tickets' target='_blank'>Azotod</a></td></tr><tr><td height='30'><b>Betalen: </b></td><td height='30'>Je kunt munten kopen bij de muntenkassa\'s en er kan met pin of contant worden afgerekend</td></tr></table></p><p class='of-1' align='center'><img src='http://denachtzoen.nl/wp-content/uploads/2015/05/BNid-OFDN-KoopKaarten.jpg'></p></div></div>").appendTo(of_blog);
+	$("<div class='span12'><h2 class='section-title'>Kaarten</h2><div class='row'><p class='of-1'><table><tr><td height='30'><b>Kaarten:</b></td><td height='30'>In de voorverkoop &euro;15, aan de deur &euro;20</td></tr><tr><td height='30'><b>Fysieke verkooppunten: </b></td><td height='30'>Kantoorboekhandel Kees Visscher, restaurant De Brouwerij Vleuten, Jones&amp;Jones en Primera Veldhuizen</td></tr><tr><td height='30'><b>Online verkooppunten: </b></td><td height='30'><a href='http://www.azotod.nl/tickets' target='_blank'>Azotod</a></td></tr><tr><td height='30'><b>Betalen: </b></td><td height='30'>Je kunt munten kopen bij de muntenkassa\'s. Dit kan met pin of contant worden afgerekend</td></tr></table></p><p class='of-1' align='center'><img src='http://denachtzoen.nl/wp-content/uploads/2015/05/BNid-OFDN-KoopKaarten.jpg'></p></div></div>").appendTo(of_blog);
 
 	$('#portfolio').css('background-image', 'none').css('background-color', '#fff').removeClass('shadow');
 	$('#portfolio').find('.row').children().remove();
