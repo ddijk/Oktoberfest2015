@@ -47,7 +47,7 @@ $("<div class='span12'><h2 class='section-title'>Locatie</h2><div class='row'><p
 $('#blog').css('background-image', 'none').css('background-color', '#fff').removeClass('shadow');
 $('#blog').find('.row').children().remove();
 var of_blog=$('#blog').find('.row');
-$("<div class='span12'><h2 class='section-title'>Kaarten</h2><div class='row'><p class='of-1'>Kaarten in de voorverkoop &euro;15<br>Kaarten aan de deur &euro;20</p><p class='of-1'>Fysieke verkooppunten:<br>Kantoorboekhandel Kees Visscher vestiging Vleuterweide en vestiging De Meern, restaurant De Brouwerij Vleuten en Primera Veldhuizen</p><p class='of-1'>Online verkooppunten:<br><a href='http://www.azotod.nl/tickets' target='_blank'>Azotod</a></p><p class='of-1'><b>Betalen</b><br>Je kunt munten kopen bij de muntenkassa\'s en er kan met pin of contant worden afgerekend</p></div></div>").appendTo(of_blog);
+$("<div class='span12'><h2 class='section-title'>Kaarten</h2><div class='row'><p class='of-1'>Kaarten in de voorverkoop &euro;15<br>Kaarten aan de deur &euro;20</p><p class='of-1'><b>Fysieke verkooppunten: </b>Kantoorboekhandel Kees Visscher vestiging Vleuterweide en vestiging De Meern, restaurant De Brouwerij Vleuten en Primera Veldhuizen</p><p class='of-1'><b>Online verkooppunten: </b><a href='http://www.azotod.nl/tickets' target='_blank'>Azotod</a></p><p class='of-1'><b>Betalen: </b>Je kunt munten kopen bij de muntenkassa\'s en er kan met pin of contant worden afgerekend</p></div></div>").appendTo(of_blog);
 
 $('#portfolio').css('background-image', 'none').css('background-color', '#fff').removeClass('shadow');
 $('#portfolio').find('.row').children().remove();
